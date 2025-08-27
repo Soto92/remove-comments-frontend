@@ -1,6 +1,6 @@
 # Remove Comments Frontend
 
-![demo](./demo.gif)
+![Demo](https://raw.githubusercontent.com/Soto92/remove-comments-frontend/main/demo.gif)
 
 A **VS Code extension** that removes all comments from **frontend files**:
 
