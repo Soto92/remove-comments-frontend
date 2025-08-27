@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "icon": "icon.png",
   "publisher": "Soto_Tecnologia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soto92/remove-comments-frontend"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
