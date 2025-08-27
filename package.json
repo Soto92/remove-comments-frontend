@@ -1,0 +1,44 @@
+{
+  "name": "remove-comments-frontend",
+  "displayName": "Remove Comments Frontend",
+  "description": "Remove comments from frontend files (JS, TS, JSX, TSX, CSS).",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "Soto_Tecnologia",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:extension.removeComments"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.removeComments",
+        "title": "Remove All Comments (Frontend)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.removeComments",
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.28.3",
+    "@babel/parser": "^7.28.3",
+    "postcss": "^8.5.6",
+    "postcss-safe-parser": "^6.0.0"
+  }
+}
