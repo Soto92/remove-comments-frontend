@@ -4,7 +4,7 @@
   "description": "Remove comments from frontend files (JS, TS, JSX, TSX, CSS).",
   "version": "0.0.1",
   "icon": "icon.png",
-  "publisher": "Soto_Tecnologia",
+  "publisher": "sototecnologia",
   "repository": {
     "type": "git",
     "url": "https://github.com/Soto92/remove-comments-frontend"
